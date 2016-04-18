@@ -1,9 +1,12 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url(tomato_bg.jpg);
+	background-image: url(Alias-logo.png);
 	background-repeat: no-repeat;
 	background-color: #FFFFFF;
+	background-size: 1px  1px;
+
+	
 }
 p {
 	font: 80%/1.8em Verdana, Geneva, Arial, Helvetica, sans-serif;
