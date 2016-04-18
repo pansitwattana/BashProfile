@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url(tomato_bg.jpg);
+	background-image: url(Source-Logo-2.gif);
 	background-repeat: no-repeat;
 	background-color: #FFFFFF;
 }
@@ -38,7 +38,7 @@ form {
 	right: 10px;
 	padding: 70px 10px 10px 10px;
 	border-left: 1px dotted #cccccc;
-	background-image: url(sm-tomato.jpg);
+	background-image: url();
 	background-position: top right;
 	background-repeat: no-repeat;
 }
