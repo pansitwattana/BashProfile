@@ -1,48 +1,74 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url(tomato_bg.jpg);
-	background-repeat: no-repeat;
-	background-color: #FFFFFF;
+	background-image: url(twitter-linux.jpg);
+	
+background-repeat: no-repeat;
+	background-color: #FFFFF;}
+
+#wrapper {
+	width:100%;
+ 
+   float:left;
+    margin-right: -230px;
+   
+ margin-top: 66px;
 }
-p {
+
+#content {
+	margin-right: 220px; 
+}
+	
+
+#main {
+	margin-left: 220px;
+ margin-top: 50px;}
+
+
+	#eiei {
+	margin-left: 220px;
+ margin-top: -100px;}
+
+
+	 p {
 	font: 80%/1.8em Verdana, Geneva, Arial, Helvetica, sans-serif;
-	padding-top: 0;
+	
+padding-top: 0;
 	margin-top: 0;
 }
 form {
 	margin: 0;
-	padding: 0;
+	
+padding: 20px;
 }
-#content {
-	margin: 66px 260px 0px 240px;
-	padding: 10px; 
+
+
+	#content 
+	h1 {
+	text-align:center;
+	
+padding-right: 20px;
+	font: 200% Georgia, "Times New Roman", Times, serif;
+	
+color: #9F81F7;
 }
-#content h1 {
-	text-align: right;
-	padding-right: 20px;
-	font: 150% Georgia, "Times New Roman", Times, serif;
-	color: #901602;
-}
-#side1 {
-	position: absolute;
-	width: 200px;
-	top: 30px;
-	left: 10px;
-	padding: 70px 10px 10px 10px;
-}
+
+	#side1 {
+	width:200px;
+	float:left;
+	padding: 0 50px 0 10px;
+ margin-top:-30px;}
+	
 #side2 {
-	position: absolute;
-	width: 220px;
-	top: 30px;
-	right: 10px;
-	padding: 70px 10px 10px 10px;
-	border-left: 1px dotted #cccccc;
+	width: 190px;
+	padding: 80px 10px 0 10px;
+ 	float:right;
+/*	border-left: 1px dotted #cccccc;
 	background-image: url(sm-tomato.jpg);
 	background-position: top right;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
-#side2 h3 {
+/*#side2 h3 {
 	font: 110% Georgia, "Times New Roman", Times, serif;
 	margin: 0;
 	padding-bottom: 4px;
@@ -54,7 +80,7 @@ form {
 	background-color: #F4F4F4;
 }
 #side1 h3 {
-	font: 110% Georgia, "Times New Roman", Times, serif;
+	font: 110% Georgia, "Arail", Times, serif;
 	color: #621313;
 	background-color: transparent;
 	margin: 0;
@@ -84,3 +110,31 @@ form {
 #side1 a:hover {
 	color: #621313;
 }
+*/
+#footer {
+	clear:both;
+	border-top: 10px solid #cecece;
+}
+
+ul#menu {		margin-top: 12px;
+			padding: 10;
+		}
+ul#menu li a {
+			background-color: black;
+			color: white;
+			padding: 10px 20px;
+			text-decoration: none;
+			border-radius: 4px 4px 0 0;
+		}
+ul#menu li a:hover {
+			background-color:#9F81F7;
+		}
+
+	h2 {font: 120% Georgia, "Times New Roman", Times, serif;
+	
+color: #58ACFA;}
+
+	h3 { padding: 0 30px 0 0;}
+
+
+
