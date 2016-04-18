@@ -1,8 +1,7 @@
 body {
-	position: absolute;
 	margin: 0;
 	padding: 0;
-	background-image: url(Source-Logo-2.gif);
+	
 	background-repeat: no-repeat;
 	background-color: #FFFFFF;
 }
@@ -22,11 +21,12 @@ form {
 #content h1 {
 	text-align: right;
 	padding-right: 20px;
-	font: 150% Georgia, "Times New Roman", Times, serif;
+	font: 150% Georgia, "Arial", Times, serif;
 	color: #901602;
 }
 #side1 {
 	position: absolute;
+	margin-top:150px;
 	width: 200px;
 	top: 30px;
 	left: 10px;
@@ -38,13 +38,14 @@ form {
 	top: 30px;
 	right: 10px;
 	padding: 70px 10px 10px 10px;
+	margin-top:150px;
 	border-left: 1px dotted #cccccc;
-	background-image: url();
+	
 	background-position: top right;
 	background-repeat: no-repeat;
 }
 #side2 h3 {
-	font: 110% Georgia, "Times New Roman", Times, serif;
+	font: 110% Georgia, "Arial", Times, serif;
 	margin: 0;
 	padding-bottom: 4px;
 }
@@ -84,4 +85,5 @@ form {
 }
 #side1 a:hover {
 	color: #621313;
+	font-size: 16px;
 }
